@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>KANTARO'S PORTFOLIO</title>
+    
+    <!--ファビコンのリンク-->
+    <link rel="apple-touch-icon" type="image/png" href="favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="favicon/icon-192x192.png">
+    
+    <!-- google fontのリンク-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    
+    <!-- cssのリンク -->
+    <link href="css/destyle.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/contact.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="container">
+    <header>
+        <div class="ham-btn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+            <ul class="list-nav">
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="index.html#work01">BAR PARABOLAM<br><span>(架空のバー)</span></a></li>
+                <li><a href="index.html#work06">HOTEL CONCORDIA OSAKA<br><span>(架空のホテル)</span></a></li>
+                <li><a href="index.html#work07">猫型Vtuberぽてち<br><span>(架空のインフルエンサー)</span></a></li>
+                <li><a href="index.html#work08">cafe and laundry GOICHI<br><span>(架空のカフェ＆ランドリー)</span></a></li>
+                <li><a href="index.html#work04">ブログサイト<br><span>(wordpressを使用)</span></a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="all-bg">
+            <h1  class="c-title">お問い合わせ</h1>
+
+            <p style="text-align: center; margin: 20px auto">
+                下記の項目を入力して、「送信する」のボタンを押して下さい。<br>必須の欄は必ず全てご記入下さい。
+            </p>
+
+            <p style="text-align: center; margin: 40px auto">
+                ※回答までには1週間程度かかる場合もございます。御了承下さい。
+            </p>
+            <!-- Google Form -->
+            <form class="c-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeP1KEKGmIo0GI5YK8xetRjZly3Z_InyGfw73v_yVJW0N0qRw/formResponse" method="POST">
+
+                <div class="c-form__item">
+                    <label class="c-form__label">個人or会社</label>
+                    <div class="toggle-buttons">
+                        <input type="radio" id="individual" name="entry.814213936" value="個人">
+                        <label for="individual">個人</label>
+                        <input type="radio" id="company" name="entry.814213936" value="会社">
+                        <label for="company">会社</label>
+                    </div>
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">(法人と答えられた方のみ)<br>企業名</label>
+                    <input
+                        name="entry.747982655"
+                        class="c-form__input"
+                        id="field-name"
+                        placeholder="企業名"
+                        type="text"
+                    />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">(法人と答えられた方のみ)<br>役職名または所属部署名</label>
+                    <input
+                        name="entry.2022887884"
+                        class="c-form__input"
+                        id="field-name"
+                        placeholder="役職名または所属部署名"
+                        type="text"
+                    />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-name">氏名<span class="c-form__required">必須</span></label>
+                    <input
+                        name="entry.90102099"
+                        class="c-form__input"
+                        id="field-name"
+                        placeholder="氏名"
+                        type="text"
+                        required="required"
+                    />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-mail"
+                        >メールアドレス<span class="c-form__required">必須</span></label>
+                    <input
+                        name="entry.1822041573"
+                        class="c-form__input"
+                        id="field-mail"
+                        placeholder="sample@gmail.com"
+                        type="email"
+                        required="required"
+                    />
+                </div>
+                <div class="c-form__item">
+                    <label class="c-form__label" for="field-message">お問い合わせ内容<span class="c-form__required">必須</span></label>
+                    <textarea
+                        name="entry.566227218"
+                        class="c-form__input"
+                        id="field-message"
+                        placeholder="お問い合わせ内容"
+                        required="required"
+                    ></textarea>
+                </div>
+                <div class="c-form__submit">
+                    <button type="submit">送信する</button>
+                </div>
+            </form>
+
+            <script type="text/javascript">
+                let submitted = false;
+            </script>
+
+            <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+                onload="if(submitted){window.location='thanks.html';}"
+            ></iframe>
+
+        </div>
+    </main>
+    <footer></footer>
+</div>
+
+
+
+<!-- jQueryのスクリプト -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- ProgressBar.jsのスクリプト -->
+<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+
+<!-- 自作js -->
+<script src="js/base.js"></script>
+</body>
+
+
+</html>
+
