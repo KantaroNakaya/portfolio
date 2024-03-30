@@ -9,11 +9,11 @@ body{
     letter-spacing: 0.1em;
 }
 .c-text{
-	margin-bottom: 32px;
+	margin: 0 auto 32px;
 }
 .c-form {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto 48px;
 }
 .c-form__item {
 	display: flex;
@@ -56,14 +56,12 @@ textarea.c-form__input {
 	background-color: transparent;
 }
 
-@media (min-width: 640px) {
-	.c-form__item {
-		flex-wrap: nowrap;
+@media (max-width: 640px) {
+	.c-form,.c-text{
+		width: 80%;
 	}
-	.c-form__label {
-		width: 40%;
-	}
-	.c-form__input {
-		width: 55%;
+	.c-form__item,.c-form__label,.c-form__input{
+		display: block;
+		width: 100%;
 	}
 }
