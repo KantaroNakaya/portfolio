@@ -4,9 +4,12 @@ body{
 .c-title{
     margin: 64px auto;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+.c-text{
+	margin-bottom: 32px;
 }
 .c-form {
 	max-width: 600px;
@@ -42,18 +45,11 @@ body{
 textarea.c-form__input {
 	height: 160px;
 }
-.c-form__submit {
-	text-align: center;
-}
-.c-form__submit button {
-	font-size: 18px;
-	font-weight: bold;
+.submit-button{
 	background-color: green;
-	border: solid 1px green;
-	border-radius: 4px;
-	padding: 5px 32px;
-	transition: 0.4s;
-	cursor: pointer;
+}
+.totop{
+	background-color: blue;
 }
 .c-form__submit button:hover {
 	color: green;
