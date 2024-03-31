@@ -146,7 +146,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.03em;
 }
 .popup-text{
 	padding: 1.5em;
@@ -155,6 +155,8 @@
 .popup-button{
 	display: block;
 	margin: 0 auto 32px;
+	padding: 8px;
+	background-color: red;
 }
 
 /* 幅1080px以下の画面時 */
