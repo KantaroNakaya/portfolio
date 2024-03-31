@@ -27,9 +27,7 @@ body{
     top: 0;
 }
 
-/*ナビゲーション*/
-#g-nav ul {
-    /*ナビゲーション天地中央揃え*/
+.list-nav {
     position: absolute;
     z-index: 999;
     top:50%;
@@ -39,12 +37,12 @@ body{
 
 /*リストのレイアウト設定*/
 
-#g-nav li{
+.list-nav li{
 	list-style: none;
     text-align: center; 
 }
 
-#g-nav li a{
+.list-nav li a{
 	color: #333;
 	text-decoration: none;
 	padding:20px;
@@ -54,7 +52,7 @@ body{
 	font-weight: bold;
 }
 
-#g-nav li a:hover{
+.list-nav li a:hover{
     background-color: rgba(102,102,102,0.5);
 }
 /*========= ボタンのためのCSS ===============*/
@@ -108,6 +106,12 @@ body{
     left: 18px;
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
+}
+.list-nav a.contact{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.list-nav a.contact:hover{
+    background-color: rgba(255, 255, 0, 1.0);
 }
 .list-nav span{
     font-size: 75%;
@@ -193,7 +197,7 @@ body{
     .button{
         padding: 5px 8px;
     }  
-    #g-nav li a{
+    .list-nav li a{
         color: #333;
         text-decoration: none;
         padding:10px 0px;

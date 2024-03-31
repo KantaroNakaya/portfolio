@@ -16,9 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     
     <!-- cssのリンク -->
     <link href="css/destyle.css" rel="stylesheet" type="text/css">
@@ -43,21 +42,32 @@
                         <li><a href="#work07">猫型Vtuberぽてち<br><span>(架空のインフルエンサー)</span></a></li>
                         <li><a href="#work08">cafe and laundry GOICHI<br><span>(架空のカフェ＆ランドリー)</span></a></li>
                         <li><a href="#work04">ブログサイト<br><span>(wordpressを使用)</span></a></li> 
-                        <li><a href="contact.html">お問い合わせ</a></li>
+                        <li><a class="contact" href="contact.html">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </header>
             <main>
                 <!-- ここからwrapperクラス -->
                 <div class="wrapper">
+                    <div class="popup">
+                        <div class="popup-container">
+                            <p class="popup-text">
+                                ご覧いただきありがとうございます。
+                            </p>
+                            <p class="popup-text">
+                                本サイトは職業訓練の受講期間に制作したポートフォリオサイトです。<br>
+                                （受講期間：2022年4月下旬〜10月下旬）
+                            </p>
+                            <p class="popup-text">
+                                本サイトで紹介されている各サイトは、「企画」「ライティング」「デザイン」「コーディング」を全て私個人で行っています。
+                            </p>
+                            <button  class="popup-button" onclick="closeModal()">閉じる</button>
+                        </div>
+                    </div>
                     <!-- ここからファーストビュー -->
                     <div class="all-bg firstView">
                         <div class="firstView-inner">
                             <h1 class="site-title">WEB PORTFOLIO<br><span class="name">developer KANTARO NAKAYA</span></h1>
-                            <!-- <div class="msg">
-                                <p>この度は本サイトをご覧いただき、<br>誠にありがとうございます。</p>
-                                <p>こちらは職業訓練校在籍時に制作した<br>ポートフォリオサイトです。</p>
-                            </div> -->
                         </div>
                         <div class="scrolldown4"><span>Scroll</span></div>
                     </div>
@@ -156,14 +166,6 @@
                     <!-- ここまで「ファーストビューから下にスクロールしたところ」 -->
                 </div>  
                 <!-- ここまでwrapperクラス -->
-                <div class="popup">
-                    <div class="popup-container">
-                        <p class="popup-text">
-                            本サイトは職業訓練校在籍時に制作したポートフォリオサイトです。
-                        </p>
-                        <button  class="popup-button" onclick="closeModal()">閉じる</button>
-                    </div>
-                </div>
             </main>
             <footer></footer>
             <!-- ここまで遷移後の画面 -->

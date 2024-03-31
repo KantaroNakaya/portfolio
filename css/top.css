@@ -127,7 +127,7 @@
 	background-color: yellow;
 	padding: 64px 0;
 }
-
+/* ポップアップ部分 */
 .popup{
 	display: none;
 	position: fixed;
@@ -135,7 +135,7 @@
 	right: 0;
 	width: 240px;
 	height: auto;
-	background-color: rgba(255, 251, 0, 0.782);
+	background-color: rgba(255, 251, 0, 0.98);
 	z-index: 999;
 }
 .popup-container{
@@ -145,9 +145,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	letter-spacing: 0.05em;
 }
 .popup-text{
-	padding: 32px;
+	padding: 1.5em;
+	font-family: "Noto Sans JP", sans-serif;
 }
 .popup-button{
 	display: block;
