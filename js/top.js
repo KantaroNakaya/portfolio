@@ -51,5 +51,5 @@ function closeModal() {
 }
 
 window.onload = function() {
-    setTimeout(showPopup, 3000);
+    setTimeout(showPopup, 1000);
 };

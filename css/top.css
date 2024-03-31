@@ -133,7 +133,8 @@
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 240px;
+	width: 50%;
+	max-width: 700px;
 	height: auto;
 	background-color: rgba(255, 251, 0, 0.98);
 	z-index: 999;
@@ -184,5 +185,9 @@
 		font-size: 48px;
 		font-family: 'Bungee Spice', cursive;
 		text-shadow: 3px 3px 3px white;
+	}
+	/* ポップアップ部分 */
+	.popup{
+		min-width: 300px;
 	}
 }
