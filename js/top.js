@@ -41,3 +41,15 @@ bar.animate(1.0, function () {
 	$("#splash").delay(500).fadeOut(800);
     //アニメーションが終わったら#splashエリアをフェードアウト
 });  
+
+// ポップアップ
+function showPopup() {
+    document.querySelector(".popup").style.display = "block";
+}
+function closeModal() {
+    document.querySelector(".popup").style.display = "none";
+}
+
+window.onload = function() {
+    setTimeout(showPopup, 3000);
+};

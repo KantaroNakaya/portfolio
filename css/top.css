@@ -128,6 +128,32 @@
 	padding: 64px 0;
 }
 
+.popup{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 240px;
+	height: auto;
+	background-color: rgba(255, 251, 0, 0.782);
+	z-index: 999;
+}
+.popup-container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.popup-text{
+	padding: 32px;
+}
+.popup-button{
+	display: block;
+	margin: 0 auto 32px;
+}
+
 /* 幅1080px以下の画面時 */
 @media screen and (max-width: 1080px) {
 
