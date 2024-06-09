@@ -79,34 +79,34 @@
 }
 
 .bg-red{
-	background-color: rgba(119,0,0,0.9);
+	background-color: rgba(119,0,0,0.95);
 }
 .bg-green{
-	background-color:rgba(184,217,115,0.9);
+	background-color:rgba(184,217,115,0.95);
 }
 .bg-purple{
-    background-color: rgba( 163, 96, 191,0.9);
+    background-color: rgba( 163, 96, 191,0.95);
 }
 .bg-brown{
-    background-color: rgba( 166, 117, 75,0.9);
+    background-color: rgba( 166, 117, 75,0.95);
 }
 .bg-pink{
-	background-color: rgba(242, 73, 166,0.9);
+	background-color: rgba(242, 73, 166,0.95);
 }
 .bg-blue{
-	background-color: rgba(178,223,251,0.9);
+	background-color: rgba(178,223,251,0.95);
 }
 .bg-white{
-	background-color: rgba(244,244,244,0.9);
+	background-color: rgba(244,244,244,0.95);
 }
 .bg-blog{
-    background-color: rgba(244,244,244,0.9);
+    background-color: rgba(244,244,244,0.95);
 }
 .bg-yellow{
-	background-color: rgba(255,255,153,0.9);
+	background-color: rgba(255,255,153,0.95);
 }
 .bg-gray{
-	background-color: rgba(51,51,51,0.9);
+	background-color: rgba(51,51,51,0.95);
 	color: white;
 	text-align: center;
 	margin: 32px 0;
