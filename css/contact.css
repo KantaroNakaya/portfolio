@@ -1,6 +1,5 @@
-body {
-  color: #fff;
-  letter-spacing: 0.05em;
+.contact {
+  color: #eee;
 }
 .c-title {
   margin: 64px auto;
@@ -11,6 +10,9 @@ body {
 }
 .c-text {
   margin: 0 auto 32px;
+}
+.c-text_underline {
+  background: linear-gradient(transparent 80% , rgba(255, 255, 0, 0.5) 80%);
 }
 .c-form {
   max-width: 600px;
@@ -67,8 +69,10 @@ textarea.c-form__input {
   background-color: #333;
 }
 @media (max-width: 640px) {
-  .c-form,
   .c-text {
+    width: 90%;
+  }
+  .c-form{
     width: 80%;
   }
   .c-form__item,

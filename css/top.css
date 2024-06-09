@@ -15,15 +15,17 @@
 }
 .site-title{
 	text-align: center;
-	font-size: 10vw;
-	font-family: 'Bungee Spice', cursive;
-	text-shadow: 3px 3px 3px white;
+	color: #eee;
+	font-size: 64px;
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+	text-shadow: 3px 3px 3px rgb(255, 190, 190);
 }
 .site-title .name{
 	font-size: 0.3em;
-	font-family: 'DotGothic16', sans-serif;
 	color: #fff;
-	text-shadow: 3px 3px 3px rgb(255, 190, 190);
 }
 .msg{
 	text-align: center;

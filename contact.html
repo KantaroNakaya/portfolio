@@ -16,15 +16,14 @@
     <!-- google fontのリンク-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
     <!-- cssのリンク -->
     <link href="css/destyle.css" rel="stylesheet" type="text/css">
     <link href="css/base.css" rel="stylesheet" type="text/css">
     <link href="css/contact.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="contact">
 <div id="container">
     <header>
         <div class="ham-btn"><span></span><span></span><span></span></div>
@@ -44,13 +43,13 @@
             <h1  class="c-title">お問い合わせ</h1>
             <div class="c-text">
                 <p style="text-align: center; margin: 20px auto">
-                    こちらは 中矢寛太郎 個人宛てのお問い合わせフォームです。
+                    こちらは <span class="c-text_underline">中矢寛太郎 個人宛て</span>の<br class="sp">お問い合わせフォームです。
                 </p>
                 <p style="text-align: center; margin: 20px auto">
-                    御用のある方は下記の項目を入力して、「送信する」のボタンを押して下さい。<br>必須の欄は必ず全てご記入下さい。
+                    御用のある方は下記の項目を入力して、<br class="sp">「送信する」のボタンを押して下さい。<br>必須の欄は必ず全てご記入下さい。
                 </p>
                 <p style="text-align: center; margin: 40px auto">
-                    ※回答までには1週間程度かかる場合もございます。御了承下さい。
+                    ※回答までには1週間程度かかる場合も<br class="sp">ございます。御了承下さい。
                 </p>
             </div>
 
@@ -58,12 +57,12 @@
             <form class="c-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeP1KEKGmIo0GI5YK8xetRjZly3Z_InyGfw73v_yVJW0N0qRw/formResponse" method="POST">
 
                 <div class="c-form__item">
-                    <label class="c-form__label">個人or会社</label>
+                    <label class="c-form__label">個人or法人</label>
                     <div class="toggle-buttons">
                         <input type="radio" id="individual" name="entry.814213936" value="個人">
                         <label for="individual">個人</label>
                         <input type="radio" id="company" name="entry.814213936" value="会社">
-                        <label for="company">会社</label>
+                        <label for="company">法人</label>
                     </div>
                 </div>
                 <div class="c-form__item">
